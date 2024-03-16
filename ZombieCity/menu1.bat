@@ -10,9 +10,9 @@ goto home
 :home
 cls
 echo.
-echo Installing Optimus Prime.txt
+echo Writing op.txt
 timeout 5 /nobreak
-echo Peter Roch is Sigma >> op.txt
+echo Neues Update >> op.txt
 echo V.1.3 >> op.txt
 ping localhost -n 2 > NUL
 start op.txt
