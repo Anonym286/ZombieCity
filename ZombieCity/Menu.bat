@@ -100,7 +100,8 @@ if not exist savegame.sav goto menu
   set /p slot3=
   set /p shops=
 )
-call ZC.bat
+call upchck.bat
+pause
 
 :newplay
 if exist savegame.sav goto delr
